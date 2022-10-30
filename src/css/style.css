@@ -4,3 +4,56 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.image-bg img {
+    width: 100%;
+    /* position: absolute; */
+}
+
+.image-bg.first {
+    
+}
+
+.white-container {
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    background-color: #ffffff;
+    margin: 100px;
+    padding: 45px;
+}
+
+.white-container .title {
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.white-container .paragraph {
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.white-container a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.white-container .img1 {
+    color: #C50000;
+}
+
+.white-container .img2 {
+    color: #D9DD10;
+}
+
+.white-container .img3 {
+    color: #A63A17;
+}
+
+.white-container .img4 {
+    color: #10ACDD;
+}
+.arrow-right, .arrow-left {
+    position: absolute;
+}
