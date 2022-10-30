@@ -4,22 +4,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* section {
+    position: absolute;
+} */
+
 .image-bg img {
     width: 100%;
-    /* position: absolute; */
+    height: 100vh;
 }
 
-.image-bg.first {
-    
-}
+/* .image-bg.first {
+    position: absolute;
+} */
 
 .white-container {
     width: 420px;
     height: 500px;
     position: absolute;
     background-color: #ffffff;
-    margin: 100px;
+    margin: 100px 0 0 150px;
     padding: 45px;
+    border-radius: 10px;
+
 }
 
 .white-container .title {
@@ -56,4 +62,14 @@ body {
 }
 .arrow-right, .arrow-left {
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    right: 35px;
+}
+
+.arrow-left {
+    left: 35px;
 }
