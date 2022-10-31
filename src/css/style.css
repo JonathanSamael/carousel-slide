@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-body {
+.container {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
-
-/* section {
-    position: absolute;
-} */
 
 .image-bg img {
     width: 100%;
-    height: 100vh;
+    background-size: cover;
 }
-
-/* .image-bg.first {
-    position: absolute;
-} */
 
 .white-container {
     width: 420px;
@@ -60,10 +53,15 @@ body {
 .white-container .img4 {
     color: #10ACDD;
 }
+
 .arrow-right, .arrow-left {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    background: transparent;
+    border: 0;
 }
 
 .arrow-right {
@@ -72,4 +70,14 @@ body {
 
 .arrow-left {
     left: 35px;
+}
+
+.page {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 400ms ease-in-out;
+}
+
+.page.selected {
+    opacity: 1;
 }
